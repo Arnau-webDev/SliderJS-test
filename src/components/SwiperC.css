@@ -1,0 +1,17 @@
+.slider-box {
+    width: 350px;
+    height: 500px;
+    background-color: #eee;
+    text-align: center;
+    position: relative;
+}
+
+.active {
+    border: 1px solid red;
+}
+
+.swiper-pagination {
+    bottom: 10px !important;
+    left: calc(50% - 120px) !important;
+    text-align: inherit !important;
+}
